@@ -3,11 +3,11 @@
 <head>
  <link rel="stylesheet" href="mystyle.css">
 
- <script>
+<!-- <script>
 function myFunction() {
   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
-</script> 
+</script> -->
  
  
  
@@ -16,11 +16,13 @@ function myFunction() {
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
   
-  <button type="button" onclick="myFunction()">Try it</button>
+ <p id="demo">A Paragraph.</p>  
+ 
+ <button type="button" onclick="myFunction()">Try it</button>
 
-<p>(myFunction is stored in an external file called "myScript.js")</p>
+<p>(myFunction is stored in an external file called "myscript.js")</p>
 
-<!--  <script src="myscript.js"></script>  -->
+  <script src="myscript.js"></script>  
   
 <!--  <script src="myScript.js" type="text/JavaScript"/>  -->
   
